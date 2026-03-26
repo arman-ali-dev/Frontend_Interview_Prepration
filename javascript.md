@@ -3,7 +3,9 @@
 - let is block-scoped and can be updated but not re-declared in the same scope.
 - const is block-scoped and cannot be updated or re-declared after assignment.
 
-2. What is hoisting?
+### 2. What is hoisting?
+Hoisting is JavaScript’s behavior of moving variable and function declarations to the top of their scope before execution. Because of hoisting, you can use a variable or function before it is declared. But only declarations are hoisted, not the initial values.
+
 ### 3. Difference between == and ===?
 - == compares values after doing type conversion.
 - === compares values and data types without conversion.
