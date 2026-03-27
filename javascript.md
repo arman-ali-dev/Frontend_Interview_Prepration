@@ -14,7 +14,7 @@ Hoisting is JavaScript’s behavior of moving variable and function declarations
 - undefined means a variable is declared but has no value assigned.
 - null is an intentional empty value assigned by the developer.
   
-5. What does the typeof operator do?
+### 5. What does the typeof operator do?
 The typeof operator checks the data type of a variable or value. It returns a string like "string", "number", "object", "undefined", etc.
 
 7. Primitive vs. non-primitive data types?
