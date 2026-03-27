@@ -17,11 +17,21 @@ Hoisting is JavaScript’s behavior of moving variable and function declarations
 ### 5. What does the typeof operator do?
 The typeof operator checks the data type of a variable or value. It returns a string like "string", "number", "object", "undefined", etc.
 
-7. Primitive vs. non-primitive data types?
-8. What is an arrow function?
-9. Difference between an arrow function and a normal function?
-10. What is a callback function?
-11. What is a higher-order function?
+### 6. Primitive vs. non-primitive data types?
+Primitive data types store simple values like string, number, boolean, null, undefined, symbol, and bigint. Non-primitive data types are objects like arrays, functions, and objects. Primitive values are copied by value, while non-primitives are copied by reference.
+
+### 7. What is an arrow function?
+An arrow function is a shorter syntax to write functions in JavaScript. It uses => and does not have its own this value.
+
+### 8. Difference between an arrow function and a normal function?
+Arrow functions have a shorter syntax and do not have their own this. Normal functions have their own this and can be used as constructors. Arrow functions are mainly used for simple and short functions.
+
+### 9. What is a callback function?
+A callback function is a function passed as an argument to another function. It is executed after a task is completed. Callbacks are often used for asynchronous operations.
+
+### 10. What is a higher-order function?
+A higher-order function is a function that takes another function as an argument or returns a function. It helps reuse logic and makes code more flexible. Examples include map, filter, and reduce.
+
 12. What is a closure?
 13. What is an IIFE?
 14. Map vs. Foreach Difference?
